@@ -1,0 +1,16 @@
+body{
+    background:greenyellow;
+    margin:30px;
+    border: indigo 3px ridge;
+    border-radius:20px;
+    background-size: cover;
+}
+html{
+    background:lightcoral;
+}
+canvas{
+    border-radius:20px;
+    box-shadow: 5px 5px 18px white;
+    padding:10px;
+    background:white;
+}
