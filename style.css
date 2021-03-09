@@ -1,16 +1,24 @@
-body{
-    background:greenyellow;
-    margin:30px;
-    border: indigo 3px ridge;
-    border-radius:20px;
-    background-size: cover;
+h3{
+    font-size: 25px !important;
 }
-html{
-    background:lightcoral;
+.btn-success:hover{
+    background-color: red;
 }
 canvas{
-    border-radius:20px;
-    box-shadow: 5px 5px 18px white;
-    padding:10px;
-    background:white;
+    border:2px dashed black;
+    animation:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+body{
+    border: royalblue 3px ridge;
+    margin:50px;
+    border-radius: 20px;
+}
+html{
+    background-color: sandybrown;
 }
